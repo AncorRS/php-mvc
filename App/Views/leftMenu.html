@@ -1,0 +1,22 @@
+<div class="menu">
+    <div class="box">
+        <div class="title">Buscar</div>
+        <p>Book Title/Author:</p>
+        <form style="border: 0px solid; padding: 0; margin: 0;">
+            <input type="hidden" name="action" value="search"/>
+            <input id="text" type="text" name="keyword" size="15"/>
+            <input id="submit" type="submit" value="Search"/>
+        </form>
+    </div>
+    <div class="box">
+        <div class="title">Categorias</div>
+
+
+        {% for categorie in categories %}
+        <p><a href="/book/{{ categorie['category_id'] }}/getBooksId">{{ categorie['category_name'] }}</a></p>
+
+        {% endfor %}
+
+
+    </div>
+</div>

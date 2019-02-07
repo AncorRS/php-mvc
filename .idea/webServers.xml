@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7d69f8a0-373c-4d36-b63e-5b1079e95924" name="localhost" url="http://localhost/php-mvc">
+        <fileTransfer port="0" mountedRoot="C:\laragon\www\php-mvc" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
